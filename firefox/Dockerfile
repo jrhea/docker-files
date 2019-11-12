@@ -1,4 +1,4 @@
-FROM ubuntu:17.04
+FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y firefox
 
